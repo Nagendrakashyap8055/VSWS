@@ -1,0 +1,798 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="194dp"
+        tools:layout_editor_absoluteY="332dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@color/black">
+
+                <ImageView
+                    android:id="@+id/fb"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/fb"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="120dp"
+                    tools:ignore="MissingConstraints"
+                    />
+
+                <ImageView
+                    android:id="@+id/tr"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/twr"
+                    android:layout_marginLeft="10dp"
+                    android:contentDescription="TODO"
+                    tools:ignore="MissingConstraints"
+                    />
+
+                <ImageView
+                    android:id="@+id/in"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:background="@drawable/in"
+                    tools:ignore="MissingConstraints"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="8dp">
+
+                <ImageView
+                    android:layout_width="227dp"
+                    android:layout_height="219dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/logo"
+                    android:padding="10dp"></ImageView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="90dp">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:background="@drawable/mail"
+                        android:padding="10dp"></ImageView>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:padding="5dp"
+                        android:paddingRight="10dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="EMAIL"
+                            android:textSize="20dp"></TextView>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="55dp"
+                            android:text="moulyaamrutha4@gmail.com,nishchithashashidhar@gmail.com"
+                            android:textColor="#ff0000"
+                            android:textIsSelectable="true"
+                            android:textSize="16dp"></TextView>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="91dp">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:id="@+id/call"
+                        android:layout_height="80dp"
+                        android:background="@drawable/call"
+                        android:padding="10dp"></ImageView>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:padding="5dp"
+                        android:paddingLeft="10dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="CALL NOW"
+                            android:textSize="20dp"></TextView>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="55dp"
+                            android:text="6361372914"
+                            android:textColor="#ff0000"
+                            android:textIsSelectable="true"
+                            android:textSize="24dp"></TextView>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/list"
+                    android:layout_width="200dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center"
+                    android:backgroundTint="@color/red"
+                    android:text="Categories"></Button>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/red"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Most Popular"
+                        android:textColor="@color/white"
+                        android:textSize="18dp">
+
+                    </TextView>
+
+                    <ImageView
+                        android:layout_width="38dp"
+                        android:layout_height="34dp"
+                        android:layout_marginLeft="330dp"
+                        android:layout_gravity="right"
+                        android:background="@drawable/menu"></ImageView>
+                </RelativeLayout>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="350dp"
+                    android:background="@drawable/img1">
+
+                </ImageView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:text="Rs.199.00"
+                    android:textColor="@color/black"
+                    android:textSize="25dp"></TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:paddingTop="10dp"
+                    android:text="Gradient Pleated Dress"
+                    android:textSize="19dp"></TextView>
+<!--                <HorizontalScrollView-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="match_parent">-->
+
+<!--                    <LinearLayout-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="match_parent"-->
+<!--                        android:orientation="horizontal"-->
+<!--                        android:padding="8dp">-->
+
+<!--                        <ImageView-->
+<!--                            android:layout_width="300dp"-->
+<!--                            android:layout_height="300dp"-->
+<!--                            android:background="@drawable/i1"-->
+<!--                            android:padding="8dp"></ImageView>-->
+
+<!--                        <ImageView-->
+<!--                            android:layout_width="300dp"-->
+<!--                            android:layout_height="300dp"-->
+<!--                            android:background="@drawable/i2"-->
+<!--                            android:padding="8dp"></ImageView>-->
+
+<!--                        <ImageView-->
+<!--                            android:layout_width="300dp"-->
+<!--                            android:layout_height="300dp"-->
+<!--                            android:background="@drawable/i3"-->
+<!--                            android:padding="8dp"></ImageView>-->
+
+<!--                        <ImageView-->
+<!--                            android:layout_width="300dp"-->
+<!--                            android:layout_height="300dp"-->
+<!--                            android:background="@drawable/i4"-->
+<!--                            android:padding="8dp"></ImageView>-->
+
+<!--                        <ImageView-->
+<!--                            android:layout_width="300dp"-->
+<!--                            android:layout_height="300dp"-->
+<!--                            android:background="@drawable/i5"-->
+<!--                            android:padding="8dp"></ImageView>-->
+<!--                    </LinearLayout>-->
+<!--                </HorizontalScrollView>-->
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rounded_corner"
+
+android:layout_marginBottom="10px"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:id="@+id/download"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Buy Now"
+                        android:textColor="@color/white"
+                        android:textSize="15dp"
+                        android:textStyle="bold"></TextView>
+                </LinearLayout>
+
+<!--                <LinearLayout-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginLeft="10dp"-->
+<!--                    android:background="@drawable/rounded_corner"-->
+<!--                    android:padding="10dp"-->
+<!--                    android:textSize="15dp"-->
+<!--                    android:textStyle="bold">-->
+
+<!--                    <TextView-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:text="Register"-->
+<!--                        android:id="@+id/register"-->
+<!--                        android:textColor="@color/white"-->
+<!--                        android:textSize="15dp"-->
+<!--                        android:textStyle="bold"></TextView>-->
+<!--                </LinearLayout>-->
+            </LinearLayout>
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:padding="10dp"-->
+<!--                android:paddingTop="10dp"-->
+<!--                android:paddingBottom="10dp"-->
+<!--                android:text="COVID 19"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:textSize="25dp"></TextView>-->
+
+            <ImageView
+                android:layout_width="313dp"
+                android:layout_height="300dp"
+                android:background="@drawable/img2"
+
+                ></ImageView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:text="Lilad Shirt Dress"
+                android:textColor="#ff0000"
+                android:textSize="24dp"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:paddingTop="10dp"
+                android:text="Rs.189.00"
+                android:textSize="15dp"></TextView>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_corner"
+
+
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/rm1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Buy Now"
+                    android:textColor="@color/white"
+                    android:textSize="15dp"
+                    android:textStyle="bold"></TextView>
+            </LinearLayout>
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="1000px"
+                android:background="@drawable/img3">
+
+
+            </ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="Rs.849.00"
+                android:textColor="@color/black"
+                android:textSize="25dp"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:paddingTop="10dp"
+                android:text="Women Gown Grey Dress"
+                android:textSize="19dp"></TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_corner"
+
+                android:layout_marginBottom="10px"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/rm2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Buy Now"
+                    android:textColor="@color/white"
+                    android:textSize="15dp"
+                    android:textStyle="bold"></TextView>
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+            <ImageView
+                android:layout_width="313dp"
+                android:layout_height="300dp"
+                android:background="@drawable/img4"
+
+                ></ImageView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:text="Chinese Style Women's Slim-fit Stand Collar Buckle Improved Cheongsam ao dai Charen Service Dress Autumn New"
+                android:textColor="#ff0000"
+                android:textSize="24dp"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:paddingTop="10dp"
+                android:text="Rs.799.00"
+                android:textSize="15dp"></TextView>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_corner"
+
+
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/rm3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Buy Now"
+                    android:textColor="@color/white"
+                    android:textSize="15dp"
+                    android:textStyle="bold"></TextView>
+            </LinearLayout>
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="342dp"
+                android:background="@drawable/img5">
+
+
+            </ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="Rs.459.00"
+                android:textColor="@color/black"
+                android:textSize="25dp"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:paddingTop="10dp"
+                android:text="Women Maxi Blue Dress"
+                android:textSize="19dp"></TextView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rounded_corner"
+
+                    android:layout_marginBottom="10px"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:id="@+id/rm4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Buy Now"
+                        android:textColor="@color/white"
+                        android:textSize="15dp"
+                        android:textStyle="bold"></TextView>
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="342dp"
+                android:background="@drawable/img6">
+
+
+            </ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="Rs.399.00"
+                android:textColor="@color/black"
+                android:textSize="25dp"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:paddingTop="10dp"
+                android:text="Semi Stiched Flared / A-Line Gown"
+                android:textSize="19dp"></TextView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rounded_corner"
+
+                    android:layout_marginBottom="10px"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:id="@+id/rm5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Buy Now"
+                        android:textColor="@color/white"
+                        android:textSize="15dp"
+                        android:textStyle="bold"></TextView>
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="342dp"
+                android:background="@drawable/img7">
+
+
+            </ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="Rs.4370.00"
+                android:textColor="@color/black"
+                android:textSize="25dp"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:paddingTop="10dp"
+                android:text="Pink Silk Long Dress with Duoatta"
+                android:textSize="19dp"></TextView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rounded_corner"
+
+                    android:layout_marginBottom="10px"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:id="@+id/rm6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Buy Now"
+                        android:textColor="@color/white"
+                        android:textSize="15dp"
+                        android:textStyle="bold"></TextView>
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="342dp"
+                android:background="@drawable/img8">
+
+
+            </ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="Rs.499.00"
+                android:textColor="@color/black"
+                android:textSize="25dp"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:paddingTop="10dp"
+                android:text="Shasmi Women's White Ballon Long Sleeve, Crew Neck Tops Lace Casual Loose Blouses T Shirts "
+                android:textSize="19dp"></TextView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rounded_corner"
+
+                    android:layout_marginBottom="10px"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:id="@+id/rm7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Buy Now"
+                        android:textColor="@color/white"
+                        android:textSize="15dp"
+                        android:textStyle="bold"></TextView>
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="342dp"
+                android:background="@drawable/img9">
+
+
+            </ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="Rs.449.00"
+                android:textColor="@color/black"
+                android:textSize="25dp"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:paddingTop="10dp"
+                android:text="Pratyusha Women's Georgette A-line Plain Long Shrug"
+                android:textSize="19dp"></TextView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rounded_corner"
+
+                    android:layout_marginBottom="10px"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:id="@+id/rm8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Buy Now"
+                        android:textColor="@color/white"
+                        android:textSize="15dp"
+                        android:textStyle="bold"></TextView>
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="342dp"
+                android:background="@drawable/img10">
+
+
+            </ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="Rs.607.00"
+                android:textColor="@color/black"
+                android:textSize="25dp"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:paddingTop="10dp"
+                android:text="Women Kurta and Pant Set Rayon"
+                android:textSize="19dp"></TextView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rounded_corner"
+
+                    android:layout_marginBottom="10px"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:id="@+id/rm9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Buy Now"
+                        android:textColor="@color/white"
+                        android:textSize="15dp"
+                        android:textStyle="bold"></TextView>
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

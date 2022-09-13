@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/intern3/app/src/main/res/layout/activity_bli.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/intern3/app/src/main/res/layout/activity_blo.xml" value="0.264" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/intern3/app/src/main/res/layout/activity_dev.xml" value="0.15942028985507245" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/intern3/app/src/main/res/layout/activity_edu.xml" value="0.2340966921119593" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/intern3/app/src/main/res/layout/activity_env.xml" value="0.264" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/intern3/app/src/main/res/layout/activity_list.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/intern3/app/src/main/res/layout/activity_main.xml" value="0.16356300434512724" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/intern3/app/src/main/res/layout/activity_med.xml" value="0.254200146092038" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/intern3/app/src/main/res/layout/activity_men.xml" value="0.14375" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/intern3/app/src/main/res/layout/activity_old.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/intern3/app/src/main/res/layout/activity_orp.xml" value="0.14375" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/intern3/app/src/main/res/layout/activity_phy.xml" value="0.14375" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/intern3/app/src/main/res/layout/activity_ski.xml" value="0.1" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/intern3/app/src/main/res/layout/activity_soc.xml" value="0.264" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/intern3/app/src/main/res/layout/activity_wom.xml" value="0.4" />
+        <entry key="..\:/Users/Nagendra/AndroidStudioProjects/intern3/app/src/main/res/layout/activity_bli.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/Nagendra/AndroidStudioProjects/intern3/app/src/main/res/layout/activity_blo.xml" value="0.2" />
+        <entry key="..\:/Users/Nagendra/AndroidStudioProjects/intern3/app/src/main/res/layout/activity_edu.xml" value="0.264" />
+        <entry key="..\:/Users/Nagendra/AndroidStudioProjects/intern3/app/src/main/res/layout/activity_env.xml" value="0.264" />
+        <entry key="..\:/Users/Nagendra/AndroidStudioProjects/intern3/app/src/main/res/layout/activity_list.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/Nagendra/AndroidStudioProjects/intern3/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/Nagendra/AndroidStudioProjects/intern3/app/src/main/res/layout/activity_med.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/Nagendra/AndroidStudioProjects/intern3/app/src/main/res/layout/activity_men.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/Nagendra/AndroidStudioProjects/intern3/app/src/main/res/layout/activity_old.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/Nagendra/AndroidStudioProjects/intern3/app/src/main/res/layout/activity_orp.xml" value="0.2108843537414966" />
+        <entry key="..\:/Users/Nagendra/AndroidStudioProjects/intern3/app/src/main/res/layout/activity_phy.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/Nagendra/AndroidStudioProjects/intern3/app/src/main/res/layout/activity_ski.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/Nagendra/AndroidStudioProjects/intern3/app/src/main/res/layout/activity_soc.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/Nagendra/AndroidStudioProjects/intern3/app/src/main/res/layout/activity_wom.xml" value="0.27447916666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

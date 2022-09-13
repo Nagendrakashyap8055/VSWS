@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#ffeca5"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".env">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SARREE"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:padding="20dp"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:background="@drawable/info_layout" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:ignore="MissingConstraints"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="@drawable/info_layout"
+                    android:layout_margin="10dp"
+                    android:padding="20px">
+
+                    <ImageView
+                        android:id="@+id/imageView"
+                        android:layout_width="match_parent"
+                        android:layout_height="615dp"
+                        app:srcCompat="@drawable/s1" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:text="Rs. 799 (60% OFF)"
+                        android:textSize="20dp"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        ></TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        android:layout_marginBottom="5dp"
+                        android:text="Women Blue Mustard Yellow Printed Off-Shoulder Anarkali Kurta"></TextView>
+                    <Button
+                        android:id="@+id/rmk1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="#00ff00"
+                        android:text="Buy now"
+                        android:textColor="@color/white"
+                        android:textSize="15dp"
+                        android:layout_margin="10dp"
+                        android:textStyle="bold"></Button>
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="@drawable/info_layout"
+                    android:layout_margin="10dp"
+                    android:padding="20px">
+
+                    <ImageView
+                        android:id="@+id/imageView2"
+                        android:layout_width="match_parent"
+                        android:layout_height="548dp"
+                        app:srcCompat="@drawable/s2" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:text="Rs. 1590 Discount57% OFF"
+                        android:textSize="20dp"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        ></TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        android:layout_marginBottom="5dp"
+                        android:text="Women Blue Mustard Yellow Printed Off-Shoulder Anarkali KurtaWomen Red Floral Printed Kurta With Trouser and Dupatta"></TextView>
+                    <Button
+                        android:id="@+id/rmk2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="#00ff00"
+                        android:text="Buy now"
+                        android:textColor="@color/white"
+                        android:textSize="15dp"
+                        android:layout_margin="10dp"
+                        android:textStyle="bold"></Button>
+
+
+                </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="@drawable/info_layout"
+                    android:layout_margin="10dp"
+                    android:padding="20px">
+
+                    <ImageView
+                        android:id="@+id/imageView3"
+                        android:layout_width="match_parent"
+                        android:layout_height="566dp"
+                        app:srcCompat="@drawable/s3" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:text="Rs. 1299 Discount 67% OFF"
+                        android:textSize="20dp"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        ></TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        android:layout_marginBottom="5dp"
+                        android:text=" Women Coral Floral Printed Empire Gotta Patti Pure Cotton Kurta with Trousers  With Dupatta"></TextView>
+                    <Button
+                        android:id="@+id/rmk3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="#00ff00"
+                        android:text="Buy now"
+                        android:textColor="@color/white"
+                        android:textSize="15dp"
+                        android:layout_margin="10dp"
+                        android:textStyle="bold"></Button>
+
+                </LinearLayout>
+
+
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="@drawable/info_layout"
+                    android:layout_margin="10dp"
+                    android:padding="20px">
+
+                    <ImageView
+                        android:id="@+id/imageView4"
+                        android:layout_width="match_parent"
+                        android:layout_height="508dp"
+                        app:srcCompat="@drawable/s4" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:text="Rs. 1299 Discount 67% OFF"
+                        android:textSize="20dp"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        ></TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        android:layout_marginBottom="5dp"
+                        android:text=" Women Coral Floral Printed Empire Gotta Patti Pure Cotton Kurta with Trousers  With Dupatta"></TextView>
+                    <Button
+                        android:id="@+id/rmk4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="#00ff00"
+                        android:text="Buy now"
+                        android:textColor="@color/white"
+                        android:textSize="15dp"
+                        android:layout_margin="10dp"
+                        android:textStyle="bold"></Button>
+
+                </LinearLayout>
+
+
+
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="@drawable/info_layout"
+                    android:layout_margin="10dp"
+                    android:padding="20px">
+
+                    <ImageView
+                        android:id="@+id/imageView5"
+                        android:layout_width="match_parent"
+                        android:layout_height="496dp"
+                        app:srcCompat="@drawable/s5" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:text="Rs. 1299 Discount 67% OFF"
+                        android:textSize="20dp"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        ></TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        android:layout_marginBottom="5dp"
+                        android:text=" Women Coral Floral Printed Empire Gotta Patti Pure Cotton Kurta with Trousers  With Dupatta"></TextView>
+                    <Button
+                        android:id="@+id/rmk5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="#00ff00"
+                        android:text="Buy now"
+                        android:textColor="@color/white"
+                        android:textSize="15dp"
+                        android:layout_margin="10dp"
+                        android:textStyle="bold"></Button>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
